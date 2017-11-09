@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#129db9"
+
+    tools:context="com.salah.tp1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
+        android:text="Prénom" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pre"
+        android:layout_alignBottom="@+id/pre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/pre"
+        android:layout_below="@+id/prenom"
+        android:layout_marginTop="34dp"
+        android:text="Nom" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nm"
+        android:layout_alignBottom="@+id/nm"
+        android:layout_alignStart="@+id/prenom"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/ml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/nm"
+        android:layout_below="@+id/nm"
+        android:layout_marginTop="44dp"
+        android:text="Mail" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ml"
+        android:layout_alignBottom="@+id/ml"
+        android:layout_alignStart="@+id/nom"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/Tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/ml"
+        android:layout_below="@+id/ml"
+        android:layout_marginTop="59dp"
+        android:text="Tel" />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Tl"
+        android:layout_alignBottom="@+id/Tl"
+        android:layout_alignEnd="@+id/mail"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#ffffff"
+        android:layout_alignEnd="@+id/tel"
+        android:layout_below="@+id/tel"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="118dp"
+        android:text="S'inscrire" />
+
+</RelativeLayout>
