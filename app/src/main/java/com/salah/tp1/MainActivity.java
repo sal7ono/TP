@@ -43,15 +43,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast T = Toast.makeText(MainActivity.this, "Erreur prenom est vide",
                             Toast.LENGTH_LONG);
                     T.show();}
-                if (s1.isEmpty()) {
+                else if (s1.isEmpty()) {
                     Toast T = Toast.makeText(MainActivity.this, "Erreur nom est vide",
                             Toast.LENGTH_LONG);
                     T.show();}
-                if (s2.isEmpty()) {
+               else if (s2.isEmpty()) {
                     Toast T = Toast.makeText(MainActivity.this, "Erreur mail est vide",
                             Toast.LENGTH_LONG);
                     T.show();}
-                if (s3.isEmpty()) {
+               else if (s3.isEmpty()) {
                     Toast T = Toast.makeText(MainActivity.this, "Erreur telephone est vide",
                             Toast.LENGTH_LONG);
                     T.show();}

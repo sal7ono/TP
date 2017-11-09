@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="38dp"
-        android:text="Prénom" />
+        android:text="Prénom :" />
 
     <EditText
         android:id="@+id/prenom"
@@ -39,7 +39,7 @@
         android:layout_alignStart="@+id/pre"
         android:layout_below="@+id/prenom"
         android:layout_marginTop="34dp"
-        android:text="Nom" />
+        android:text="Nom :" />
 
     <EditText
         android:id="@+id/nom"
@@ -59,7 +59,7 @@
         android:layout_alignEnd="@+id/nm"
         android:layout_below="@+id/nm"
         android:layout_marginTop="44dp"
-        android:text="Mail" />
+        android:text="Mail :" />
 
     <EditText
         android:id="@+id/mail"
@@ -79,7 +79,7 @@
         android:layout_alignStart="@+id/ml"
         android:layout_below="@+id/ml"
         android:layout_marginTop="59dp"
-        android:text="Tel" />
+        android:text="Tel :" />
 
     <EditText
         android:id="@+id/tel"
